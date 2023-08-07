@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prediction-accuracy"
+version = "0.1.0"
+description = ""
+authors = ["Ian Reynolds <idreyn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prediction_accuracy"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
